@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<style>
+.footer__more a {
+  color: #06c;
+}
+.footer__more {
+  text-align: center;
+  font-size: 13px;
+  color: #86868b;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--greyLight);
+}
+</style>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="style1.css">
+    <title>register</title>
+  </head>
+  <body>
+    <!-- Header -->
+    
+    <div class="center">
+      <h1>Register</h1>
+      <form action="https://formspree.io/f/mvoezbjo" method="POST">
+        <div class="txt_field">
+          <input type="text" name="name" required>
+          <span></span>
+          <label>Name of the Student</label>
+        </div>
+        <div class="txt_field">
+          <input type="text" name="class" required>
+          <span></span>
+          <label>Class(in Roman)</label>
+        </div>
+        <div class="txt_field">
+          <input type="email" name="mailID" required>
+          <span></span>
+          <label>Email-ID</label>
+        </div>
+        <div class="txt_field">
+          <input type="tel" name="Ph.No" required>
+          <span></span>
+          <label>Contact Number</label>
+        </div>
+        <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+
+    <footer>
+      <div class="footer__more">
+        To Reach us:  <a href="https://maps.app.goo.gl/FrpbXbwp3mvqJoRS9">On Map</a>  Or call 9095866840.
+        Copyright © 2024 All rights reserved.
+      </div>
+  </footer>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+  </body>
+</html>
